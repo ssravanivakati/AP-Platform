@@ -1,21 +1,22 @@
-# AP-Platform
+# AI Accounts Payable Platform (AP-Platform)
 
-A full-stack **Accounts Payable (AP) Management Platform** built using **React.js, Node.js, Express.js, and MySQL**. The application helps organizations efficiently manage vendors, purchase orders, invoices, approvals, and payment tracking through a modern web interface.
+A full-stack **Accounts Payable Management Platform** built using **React.js, TypeScript, Tailwind CSS, Node.js, and Express.js**.
+
+The application helps organizations manage invoices, vendors, payments, and approval workflows through a modern and responsive web interface.
 
 ---
 
 ## 🚀 Features
 
-- User Authentication
-- Dashboard with AP Overview
-- Vendor Management
-- Purchase Order Management
-- Invoice Management
-- Approval Workflow
-- Payment Tracking
-- Search and Filter Functionality
-- Responsive User Interface
-- REST API Integration
+- Dashboard with invoice and payment overview
+- Invoice upload and management
+- Invoice listing with details
+- Vendor management
+- Vendor dashboard with payment summary
+- Notifications and alerts
+- Settings management
+- Responsive user interface
+- REST API integration
 
 ---
 
@@ -23,10 +24,12 @@ A full-stack **Accounts Payable (AP) Management Platform** built using **React.j
 
 ### Frontend
 - React.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
+- TypeScript
+- Tailwind CSS
+- React Router
 - Axios
+- Recharts
+- Vite
 
 ### Backend
 - Node.js
@@ -34,7 +37,7 @@ A full-stack **Accounts Payable (AP) Management Platform** built using **React.j
 - REST APIs
 
 ### Database
-- MySQL
+- MySQL (Planned Integration)
 
 ### Tools
 - Git
@@ -45,77 +48,3 @@ A full-stack **Accounts Payable (AP) Management Platform** built using **React.j
 ---
 
 ## 📁 Project Structure
-
-```
-AP-Platform/
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── ...
-│
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   ├── package.json
-│   └── ...
-│
-├── .gitignore
-├── README.md
-└── package.json
-```
-
----
-
-## ⚙️ Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/ssravanivakati/AP-Platform.git
-```
-
-### Install Frontend Dependencies
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-### Install Backend Dependencies
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
----
-
-## 📌 Future Enhancements
-
-- JWT Authentication
-- Role-Based Access Control
-- Email Notifications
-- Report Generation
-- File Upload Support
-- Docker Deployment
-
----
-
-## 👩‍💻 Author
-
-**Sravani Vakati**
-
-GitHub: https://github.com/ssravanivakati
-
----
-
-## 📄 License
-
-This project is created for learning and portfolio purposes.
